@@ -8,3 +8,6 @@ http://testephp-ricardoroma.rhcloud.com/myapp/?palindromo=tenet
 
 Integração continua em:
 https://www.codeship.io/projects/29737
+
+Teste de integração continua com PHP:
+Ao fazer push no master do github são executados os testes automatizados no codeship, para este exemplo utilizamos PHPUnit puro e PHPUnit usando o framework Yii.
