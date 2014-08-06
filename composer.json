@@ -1,0 +1,12 @@
+{
+    "name": "ricardo/teste_php",
+    "authors": [
+        {
+            "name": "Ricardo Roma",
+            "email": "ricardovroma@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}
