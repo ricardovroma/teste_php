@@ -1,6 +1,6 @@
 <?php
 
-class SiteTest extends WebTestCase
+class SiteTest extends MyCTestCase
 {
 	function eh_palindromo($numero){
 	    return $numero == strrev($numero);

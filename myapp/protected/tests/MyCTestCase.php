@@ -11,7 +11,7 @@ define('TEST_BASE_URL','http://localhost/ricardoroma/public/teste_php/yii/demos/
  * In this class, we set the base URL for the test application.
  * We also provide some common methods to be used by concrete test classes.
  */
-class WebTestCase extends CTestCase
+class MyCTestCase extends CTestCase
 {
 	/**
 	 * Sets up before each test method runs.
