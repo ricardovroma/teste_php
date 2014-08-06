@@ -8,6 +8,6 @@
     ],
     "require": {
     	"phpunit/phpunit": "4.1.4",
-    	"laravel/framework": "4.2.*"
+    	"yiisoft/yii": "1.1.*"
     }
 }
