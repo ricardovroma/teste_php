@@ -4,15 +4,10 @@
 * @example $ phpunit --colors palindromo_test.php
 * @fonte http://phpunit.de
 */
-
-function eh_palindromo($numero){
-    return $numero == strrev($numero);
-}
+require_once("palindromo.php");
 
 class PalindromoTest extends PHPUnit_Framework_TestCase
 {
-   
-
     public function test_eh_palindromo_um_digito(){
         $this->assertEquals(eh_palindromo(7), true);
     }
@@ -29,5 +24,4 @@ class PalindromoTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(eh_palindromo(13), false);
     }   
 }
-
 ?>
